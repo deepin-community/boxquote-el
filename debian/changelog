@@ -1,5 +1,54 @@
-template-repository (1.0-1) unstable; urgency=medium
+boxquote-el (2.3-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Rebuild against dh-elpa 2.1.5.
+    Upload pushed to dgit-repos but not salsa.
+    See <https://lists.debian.org/debian-emacsen/2024/07/msg00077.html>.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sean Whitton <spwhitton@spwhitton.name>  Thu, 25 Jul 2024 17:44:08 +0900
+
+boxquote-el (2.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild against dh-elpa 2.1.3.
+    Upload pushed to dgit-repos but not salsa.
+    See <https://lists.debian.org/debian-emacsen/2024/07/msg00077.html>.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Wed, 24 Jul 2024 21:15:29 +0900
+
+boxquote-el (2.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Nicholas D Steeves ]
+  * Drop emacs25 from Enhances (package does not exist in bullseye).
+
+  [ Xiyue Deng ]
+  * New upstream release.  Closes: #1041293.
+  * Update d/copyright to follow upstream changes to GPL-3+.
+  * Update Standards-Version to 4.6.2.  No change needed.
+
+  [ Tobias Frost ]
+  * Revert part of d/copyright affecting the debian/* files.
+
+ -- Xiyue Deng <manphiz@gmail.com>  Mon, 09 Oct 2023 21:36:08 -0700
+
+boxquote-el (2.2-1) unstable; urgency=medium
+
+  * Update short and long description.
+  * New upstream release
+
+ -- David Bremner <bremner@debian.org>  Sun, 06 Dec 2020 07:46:35 -0400
+
+boxquote-el (2.1-3) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild with current dh-elpa
+
+ -- David Bremner <bremner@debian.org>  Sat, 31 Aug 2019 09:34:57 -0300
+
+boxquote-el (2.1-2) unstable; urgency=medium
+
+  * Initial release (See bug #899221)
+
+ -- David Bremner <bremner@debian.org>  Tue, 24 Jul 2018 17:23:23 +0800
